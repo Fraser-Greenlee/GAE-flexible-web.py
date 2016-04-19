@@ -1,0 +1,6 @@
+runtime: python
+vm: true
+entrypoint: python main.py $PORT
+
+runtime_config:
+  python_version: 2
